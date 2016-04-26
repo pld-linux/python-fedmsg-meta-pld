@@ -6,10 +6,11 @@
 Summary:	Metadata providers for PLD Linux fedmsg deployment
 Name:		python-fedmsg-meta-pld
 Version:	0.0.1
-Release:	0.1
+Release:	1
 License:	LGPL v2+
 Group:		Libraries/Python
-Source0:	https://github.com/glensc/fedmsg_meta_pld/archive/master/%{module}-%{version}.tar.gz
+Source0:	https://github.com/glensc/fedmsg_meta_pld/archive/v%{version}/%{module}-%{version}.tar.gz
+# Source0-md5:	cff6b4aaf192d718632ebd6a2b24bcfc
 URL:		https://github.com/glensc/fedmsg_meta_pld
 BuildRequires:	fedmsg >= 0.10.0
 BuildRequires:	rpm-pythonprov
@@ -42,6 +43,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README.md LICENSE
+%doc README.md CHANGELOG.md
 %{py_sitescriptdir}/fedmsg_meta_pld
 %{py_sitescriptdir}/fedmsg_meta_pld-%{version}-py*.egg-info
