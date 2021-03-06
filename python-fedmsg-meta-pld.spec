@@ -6,7 +6,7 @@
 Summary:	Metadata providers for PLD Linux fedmsg deployment
 Name:		python-fedmsg-meta-pld
 Version:	0.0.1
-Release:	1
+Release:	2
 License:	LGPL v2+
 Group:		Libraries/Python
 Source0:	https://github.com/glensc/fedmsg_meta_pld/archive/v%{version}/%{module}-%{version}.tar.gz
